@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  react:
+    container_name: "portfolio-compose"
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - node-modules:/app/node_modules
+volumes:
+  node-modules:
