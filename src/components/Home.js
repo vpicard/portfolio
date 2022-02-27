@@ -1,23 +1,31 @@
 import React from "react";
-import Navbar from "./Navbar";
+import { Container, Row, Col } from "react-bootstrap";
+import Navigation from "./Navigation";
 
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
-      <img
-        alt="Profile"
-        src={require("./../assets/images/main-profile-picture.png")}
-      />
-      <div>
-        <p>Hello, I'm</p>
-        <span>Vincent Picard</span>
-        <p style={{ marginBottom: "20px" }}>
-          Looking for an <b>android developer job</b>
-        </p>
-        <button className="offset">About me</button>
-        <button className="offset">Download CV</button>
-      </div>
+      <Navigation />
+      <Container>
+        <Row>
+          <Col lg={12}>
+            <img
+              alt="Profile"
+              src={require("./../assets/images/main-profile-picture.png")}
+            />
+          </Col>
+        </Row>
+        <Row >
+          <div className="col-lg photo-description">
+            <p>Hello, I'm</p>
+            <span className="name">Vincent Picard</span>
+            <p style={{ marginBottom: "20px", textAlign: "center" }}>
+              Looking for an <b>android developer job</b>
+            </p>
+            <button className="btn-cv offset">Download CV</button>
+          </div>
+        </Row>
+      </Container>
     </div>
   );
 };

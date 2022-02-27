@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const About = () => {
+const Portfolio = () => {
     return (
         <div>
             <Navigation />
@@ -9,4 +9,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Portfolio;
