@@ -1,8 +1,10 @@
 // ------------ Font ------------
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 $font-comfortaa: 'Comfortaa', cursive;
+$font-pacifico: 'Pacifico', cursive;
 
 // --------- Bootstrap ----------
 
@@ -18,57 +20,19 @@ $font-comfortaa: 'Comfortaa', cursive;
 
 // ---------- Variable ----------
 
-$primary-text-color: #FFFFFF;
-$secondary-text-color: #FF0000;
-$primary-bg-color: #606060;
-$secondary-bg-color: #232222;
+$background-color: #0D3850;
+$emph-text-color: #FFBD6F;
+$text-color: #F3F3F3;
 
-body {
+$primary: $background-color;
+$secondary: $emph-text-color;
+$success: $text-color;
+
+
+html, body {
     font-family: $font-comfortaa;
     height: 100%;
-    width: 100%;
-    background: linear-gradient(141.51deg, #606060 8.92%, #232222 84.96%);
-    background-attachment: fixed;
-}
-
-svg {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    background: $background-color;
     background-attachment: fixed;
-}
-
-.main-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    color: $primary-text-color;
-    background: radial-gradient(107.02% 100.67% at 2.11% 2.77%, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%);
-    box-shadow: 0px 0px 65px 20px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(122px);
-    height: 97%;
-    width: 95%;
-    border-radius: 30px;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%) translateX(50%);
-
-    span {
-        font-size: 2em;
-        font-weight: bold;
-        display: block;
-        margin: 7px 0 7px 0;
-    }
-}
-
-img {
-    width: 200px;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
 }
