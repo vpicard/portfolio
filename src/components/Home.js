@@ -8,7 +8,7 @@ const Home = () => {
       <Navigation />
       <Container>
         <Row>
-          <Col lg={12}>
+          <Col lg={12} className="main-profile-picture">
             <img
               alt="Profile"
               src={require("./../assets/images/main-profile-picture.png")}

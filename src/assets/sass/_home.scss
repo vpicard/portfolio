@@ -18,7 +18,9 @@
    justify-content: center;
  }
 
-  img {
+  .main-profile-picture {
+    display: flex;
+    justify-content: center;
     height: 200px;
     width: auto;
     margin-bottom: 50px;
@@ -98,7 +100,9 @@
       align-items: flex-start;
     }
 
-    img {
+    .main-profile-picture {
+      display: flex;
+      justify-content: center;
       height: 250px;
       width: auto;
       margin-right: 30px;

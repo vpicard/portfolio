@@ -2,35 +2,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-img {
-  margin-top: 100px;
-  height: 200px;
-  width: auto;
-}
+  .about-profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 200px;
+    width: auto;
+  }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: $secondary;
-
-  .nav-link {
-    position: relative;
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     color: $secondary;
-    font-family: $font-comfortaa;
-    transition: .5s;
-    margin: 0 3px 0 3px;
 
-    &:hover {
+    .nav-active {
         background-color: $secondary;
         color: $primary;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        
     }
 
-    &:focus {
+    .nav-link {
+      position: relative;
+      color: $secondary;
+      font-family: $font-comfortaa;
+      transition: 0.5s;
+      margin: 0 3px 0 3px;
+
+      &:hover {
         background-color: $secondary;
         color: $primary;
+      }
+
+      &:focus {
+        background-color: $secondary;
+        color: $primary;
+      }
     }
   }
 }
