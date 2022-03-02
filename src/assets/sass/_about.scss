@@ -22,7 +22,7 @@
         color: $primary;
         text-decoration: none;
         padding: 0.5rem 1rem;
-        
+        margin: 0 10px 0 10px;
     }
 
     .nav-link {
@@ -30,7 +30,7 @@
       color: $secondary;
       font-family: $font-comfortaa;
       transition: 0.5s;
-      margin: 0 3px 0 3px;
+      margin: 0 10px 0 10px;
 
       &:hover {
         background-color: $secondary;
@@ -41,6 +41,39 @@
         background-color: $secondary;
         color: $primary;
       }
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    .skill {
+      padding: 5px;
+      border: 1px solid $secondary;
+      border-radius: 7px;
+      background-color: $primary;
+      color: $secondary;
+      transition: .5s;
+      margin: 5px;
+  
+      &:hover {
+        background-color: $secondary;
+        color: $primary;
+      }
+    }
+  }
+}
+
+
+// Medium devices (tablets, 992px and up)
+@include media-breakpoint-up(lg) {
+  .about {
+    .skills {
+      padding-left: 300px;
+      padding-right: 300px;
     }
   }
 }
