@@ -16,7 +16,7 @@ const Navigation = () => {
           <div className="nav-right link-wrapper">
             <NavLink
               className={(navData) =>
-                navData.isActive ? "nav-active" : "link"
+                navData.isActive ? "nav-active link" : "link"
               }
               to="/about"
             >
@@ -24,7 +24,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               className={(navData) =>
-                navData.isActive ? "nav-active" : "link"
+                navData.isActive ? "nav-active link" : "link"
               }
               to="/contact"
             >
@@ -32,7 +32,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               className={(navData) =>
-                navData.isActive ? "nav-active" : "link"
+                navData.isActive ? "nav-active link" : "link"
               }
               to="/portfolio"
             >

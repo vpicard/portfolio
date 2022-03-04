@@ -104,37 +104,27 @@
     .nav-right {
       margin-right: 20px;
 
-      a {
+      .link {
         font-family: $font-comfortaa;
         color: $secondary;
         font-size: 1.2em;
         text-decoration: none;
         margin-left: 15px;
-        padding-bottom: 5px;
+        margin-bottom: 0;
 
-        &::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          width: 100%;
-          height: 3px;
-          transform: scaleY(0);
-          background-color: $secondary;
-          transition: transform 0.3s;
+        &:hover::before {
+          // TODO
         }
 
-        &:hover {
-          &::after {
-            transform: scaleY(1);
-          }
+        &:hover::after {
+          // TODO
         }
       }
 
       a.nav-active {
         font-family: $font-comfortaa;
-        color: $secondary;
+        color: $primary;
+        background-color: $secondary;
         font-size: 1.2em;
         text-decoration: none;
         margin-left: 15px;
