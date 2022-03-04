@@ -11,39 +11,6 @@
     width: auto;
   }
 
-  .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: $secondary;
-
-    .nav-active {
-        background-color: $secondary;
-        color: $primary;
-        text-decoration: none;
-        padding: 0.5rem 1rem;
-        margin: 0 10px 0 10px;
-    }
-
-    .nav-link {
-      position: relative;
-      color: $secondary;
-      font-family: $font-comfortaa;
-      transition: 0.5s;
-      margin: 0 10px 0 10px;
-
-      &:hover {
-        background-color: $secondary;
-        color: $primary;
-      }
-
-      &:focus {
-        background-color: $secondary;
-        color: $primary;
-      }
-    }
-  }
-
   .skills {
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +30,24 @@
         background-color: $secondary;
         color: $primary;
       }
+    }
+  }
+
+  .about-tab {
+    display: flex;
+    justify-content: center;
+
+    .item-tab {
+      padding: 3px 6px;
+      margin: 0 10px;
+      background-color: transparent;
+      border: 0;
+      color: $secondary;
+    }
+
+    .active {
+      background-color: $secondary;
+      color: $primary;
     }
   }
 }

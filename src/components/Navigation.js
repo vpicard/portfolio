@@ -18,13 +18,13 @@ const Navigation = () => {
               className={(navData) =>
                 navData.isActive ? "nav-active" : "link"
               }
-              to="/about/education"
+              to="/about"
             >
               About
             </NavLink>
             <NavLink
               className={(navData) =>
-                navData.isActive ? "nav-active-about" : "link"
+                navData.isActive ? "nav-active" : "link"
               }
               to="/contact"
             >
@@ -32,7 +32,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               className={(navData) =>
-                navData.isActive ? "nav-active-about" : "link"
+                navData.isActive ? "nav-active" : "link"
               }
               to="/portfolio"
             >
