@@ -77,8 +77,8 @@ const Experience = () => {
           }}
           icon={
             <img
-              width="30px"
-              height="30px"
+              width="25px"
+              height="25px"
               className="education-logo"
               alt="education logo"
               src={require("../assets/images/work.png")}
@@ -92,7 +92,9 @@ const Experience = () => {
             Argenteuil (95), France
           </h4>
           <p>
-            Inspection and maintenance of explosive atmosphere products. Redaction of technical procedures, intervention on oil depots and intervention on test bench
+            Inspection and maintenance of explosive atmosphere products.
+            Redaction of technical procedures, intervention on oil depots and
+            intervention on test bench
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -109,8 +111,8 @@ const Experience = () => {
           }}
           icon={
             <img
-              width="30px"
-              height="30px"
+              width="25px"
+              height="25px"
               className="education-logo"
               alt="education logo"
               src={require("../assets/images/work.png")}
@@ -123,9 +125,7 @@ const Experience = () => {
           <h4 className="mt-2 small vertical-timeline-element-subtitle">
             Paris (75), France
           </h4>
-          <p>
-            User assistant, sharepoint administrator and IT network manager
-          </p>
+          <p>User assistant, sharepoint administrator and IT network manager</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -141,8 +141,8 @@ const Experience = () => {
           }}
           icon={
             <img
-              width="30px"
-              height="30px"
+              width="25px"
+              height="25px"
               className="education-logo"
               alt="education logo"
               src={require("../assets/images/work.png")}
@@ -155,9 +155,7 @@ const Experience = () => {
           <h4 className="mt-2 small vertical-timeline-element-subtitle">
             Rueil-Malmaison (92), France
           </h4>
-          <p>
-            Help in the enterprise digitalization
-          </p>
+          <p>Help in the enterprise digitalization</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -173,8 +171,8 @@ const Experience = () => {
           }}
           icon={
             <img
-              width="30px"
-              height="30px"
+              width="25px"
+              height="25px"
               className="education-logo"
               alt="education logo"
               src={require("../assets/images/work.png")}
@@ -187,9 +185,7 @@ const Experience = () => {
           <h4 className="mt-2 small vertical-timeline-element-subtitle">
             Le Havre (76), France
           </h4>
-          <p>
-            Update of the phone network clients database
-          </p>
+          <p>Update of the phone network clients database</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

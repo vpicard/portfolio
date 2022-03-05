@@ -3,8 +3,9 @@ import Navigation from './Navigation';
 
 const Contact = () => {
     return (
-        <div>
+        <div className='contact'>
             <Navigation />
+            <h1>Bonjour</h1>
         </div>
     );
 };
