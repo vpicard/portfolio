@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Row, Nav, Button } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Education from "./Education";
 import Experience from "./Experience";
 import Navigation from "./Navigation";
