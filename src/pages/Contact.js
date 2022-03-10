@@ -6,7 +6,6 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Recaptcha from "react-recaptcha";
 
 const Contact = () => {
   
