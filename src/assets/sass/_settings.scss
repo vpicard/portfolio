@@ -1,38 +1,39 @@
 // ------------ Font ------------
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-$font-comfortaa: 'Comfortaa', cursive;
-$font-pacifico: 'Pacifico', cursive;
+$font-comfortaa: "Comfortaa", cursive;
+$font-pacifico: "Pacifico", cursive;
 
 // --------- Bootstrap ----------
-
-// Option A: Include all of Bootstrap
-// @import "~bootstrap/scss/bootstrap";
-
 // Option B: Include parts of Bootstrap
-
-// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
-@import "~bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
 
 // ---------- Variable ----------
 
-$background-color: #0D3850;
-$emph-text-color: #FFBD6F;
-$text-color: #F3F3F3;
+$background-color: #0d3850;
+$emph-text-color: #ffbd6f;
+$text-color: #f3f3f3;
 
 $primary: $background-color;
 $secondary: $emph-text-color;
 $success: $text-color;
 
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success
+  );
 
-html, body {
-    font-family: $font-comfortaa;
-    height: 100%;
-    margin: 0;
-    background: $background-color;
-    background-attachment: fixed;
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+  font-family: $font-comfortaa;
+  height: 100%;
+  margin: 0;
+  background: $background-color;
+  background-attachment: fixed;
 }
