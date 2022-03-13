@@ -40,6 +40,7 @@ const Education = () => {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">IT Science and Embedded Systems</h4>
           <p>Central School of Electronic, Paris (75015) France</p>
+          <li><b>Class delegate</b> during three years</li>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

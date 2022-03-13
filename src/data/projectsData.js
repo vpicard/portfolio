@@ -24,7 +24,6 @@ export const projectsData = [
     source: "githublink",
     info: "Ask to someone to enter a number. Do not see which number your mate typing. Then guess the entered number with the indications proposed by the application",
     pictures: [
-      "./media/HigherLowerGame/more-or-less-game.png",
       "./media/HigherLowerGame/home-screen.png",
       "./media/HigherLowerGame/select-a-number-screen.png",
       "./media/HigherLowerGame/try-a-number-screen.png",
