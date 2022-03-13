@@ -1,0 +1,62 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "My portfolio",
+    languages: ["Java", ", Sass"],
+    languagesIcons: [
+      "fa-brands fa-js",
+      "fa-brands fa-sass",
+      "fa-brands fa-html5",
+      "fa-brands fa-react",
+    ],
+    source: "githublink",
+    info: "Through this first react app that I created, I really wanted to improve my skills in web development, particularly in the the sass and javascript languages. During this project, I got the opportunity to use bootstrap and learn how to use this UI framework.",
+    pictures: [
+      "./media/myPortfolio/picture-my-portfolio.png",
+      "./media/myPortfolio/example-my-portfolio.png",
+    ],
+  },
+  {
+    id: 2,
+    name: "More or less game",
+    languages: ["Java", ", Android Studio"],
+    languagesIcons: ["fa-brands fa-java", "fa-brands fa-android"],
+    source: "githublink",
+    info: "Ask to someone to enter a number. Do not see which number your mate typing. Then guess the entered number with the indications proposed by the application",
+    pictures: [
+      "./media/HigherLowerGame/home-screen.png",
+      "./media/HigherLowerGame/select-a-number-screen.png",
+      "./media/HigherLowerGame/try-a-number-screen.png",
+    ],
+  },
+  {
+    id: 3,
+    name: "Currencies convertor",
+    languages: ["Java", ", Android Studio"],
+    languagesIcons: ["fa-brands fa-java", "fa-brands fa-android"],
+    source: "githublink",
+    info: "The context of this project takes place during last school year where we have android java programming courses. During this courses I had the opportunities to program a currencies converter app which requests an xml api with all currency rates with XMLAsyncTask class.",
+    pictures: ["./media/currencies-converter.png"],
+  },
+  {
+    id: 4,
+    name: "Docadeia",
+    languages: ["Html", ", Python", ", Javascript", ", Sass"],
+    languagesIcons: [
+      "fa-brands fa-js",
+      "fa-brands fa-sass",
+      "fa-brands fa-html5",
+      "fa-brands fa-python",
+      "fa-brands fa-react",
+    ],
+    source: "githublink",
+    info: "During our last school year at ECE Paris, I had the opportunity to participate in a final year project with five other students where I was in charge of the project management and frontend development. Our project used different kinds of technologies such as reactJS, django (with python) and machine learning. I divided my team into four groups. This first group was in charge of working on the frontend side. The second group has the objective to work on the backend side. Finally, the last two people worked on machine learning and the documents classification side. The objective of our project was to offer to business clients a web platform to classify automatically and store their documents securely.",
+    pictures: [
+      "./media/myPortfolio/docadeia/page0.png",
+      "./media/myPortfolio/docadeia/page1.png",
+      "./media/myPortfolio/docadeia/page2.png",
+      "./media/myPortfolio/docadeia/page3.png",
+      "./media/myPortfolio/docadeia/page4.png",
+    ],
+  },
+];
